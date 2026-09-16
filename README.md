@@ -1,1 +1,0 @@
-# online-retail-sql-analysis
