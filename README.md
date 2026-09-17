@@ -88,18 +88,21 @@ Wykres 4. Top 10 najczęściej kupowanych przedmiotów
 
 
 ![Tabela 1. Top 10 produktów sprzedanych ilościowo](charts/t1.png)
+
 Tabela 1. Top 10 produktów sprzedanych ilościowo
 
 ![Wykres 5. Top 10 produktów przynoszących największy przychód](charts/w5.png)
 Wykres 5. Top 10 produktów przynoszących największy przychód
 
 ![Tabela 2. Top 10 produktów przynoszących największy przychód](charts/t2.png)
+
 Tabela 2. Top 10 produktów przynoszących największy przychód
 
 ![Wykres 6. Top 10 najczęściej zwracanych produktów](charts/w6.png)
 Wykres 6. Top 10 najczęściej zwracanych produktów
 
 ![Tabela 3. Top 10 najczęściej zwracanych produktów](charts/t36.png)
+
 Tabela 3. Top 10 najczęściej zwracanych produktów
 
 ### **4\. Koncentracja geograficzna**
@@ -111,6 +114,7 @@ Wielka Brytania odpowiada za ponad 90% obrotu; pozostałe rynki (Irlandia, Holan
 Wykres 7. Generowany obrót sklepu per rynek
 
 ![Tabela 4.  Generowany obrót sklepu per rynek](charts/t4.png)
+
 Tabela 4.  Generowany obrót sklepu per rynek
 
 ---
