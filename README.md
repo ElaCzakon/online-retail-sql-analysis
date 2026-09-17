@@ -64,8 +64,6 @@ Cały kod jest w jednym, obszernie skomentowanym pliku [`sql/projekt_online_reta
 
 Obrót rośnie jesienią, ze szczytem w listopadzie (zakupy przedświąteczne), a po świętach wyraźnie spada (styczniowe załamanie). Wzorzec powtarza się w obu latach.
 
-![][image1]
-
 ![Wykres 1. Obrót sklepu w ujęciu miesięcznym](charts/w1.png)
 Wykres 1. Obrót sklepu w ujęciu miesięcznym
 
@@ -73,53 +71,47 @@ Wykres 1. Obrót sklepu w ujęciu miesięcznym
 
 Segment **Champions** to tylko \~13% klientów (760 osób), ale odpowiada za ponad połowę całego obrotu (\~9,65 mln). Największa liczebnie grupa — **Uśpieni** (2 116 osób) — wnosi zaledwie \~1,12 mln. Wniosek: chronić najlepszych klientów, animować nowych oraz odzyskiwać „Zagrożonych", zanim znikną.
 
-![][image2]
 
-!\[Wykres 2\. Łączny obrót per segment\](charts/w2.png)
+![Wykres 2. Łączny obrót per segment](charts/w2.png)
+Wykres 2. Łączny obrót per segment
 
-![][image3]
 
-!\[Wykres 3\. Liczebność w każdym segmencie\](charts/w3.png)
+![Wykres 3. Liczebność w każdym segmencie](charts/w3.png)
+Wykres 3. Liczebność w każdym segmencie
 
 ### **3\. Bestseller ≠ najbardziej dochodowy**
 
 Nie zawsze najczęściej sprzedawany produkt (WORLD WAR 2 GLIDERS, \~110 tys. sztuk) przynosi najwięcej pieniędzy (najbardziej dochodowy to REGENCY CAKESTAND 3 TIER). Tani produkt masowy vs droższy, mniej liczny — różne strategie zależne od kierunku, w którym powinien przebiegać rozwój biznesu. Warto rozważyć również wycofanie produktów, które są najczęściej zwracane.
 
-![][image4]
+![Wykres 4. Top 10 najczęściej kupowanych przedmiotów](charts/w4.png)
+Wykres 4. Top 10 najczęściej kupowanych przedmiotów
 
-!\[Wykres 4\. Top 10 najczęściej kupowanych przedmiotów\](charts/w4.png)
 
-![][image5]
+![Tabela 1. Top 10 produktów sprzedanych ilościowo](charts/t1.png)
+Tabela 1. Top 10 produktów sprzedanych ilościowo
 
-!\[Tabela 1\. Top 10 produktów sprzedanych ilościowo\](charts/t1.png)
+![Wykres 5. Top 10 produktów przynoszących największy przychód](charts/w5.png)
+Wykres 5. Top 10 produktów przynoszących największy przychód
 
-![][image6]
+![Tabela 2. Top 10 produktów przynoszących największy przychód](charts/t2.png)
+Tabela 2. Top 10 produktów przynoszących największy przychód
 
-!\[Wykres 5\. Top 10 produktów przynoszących największy przychód\](charts/w5.png)
+![Wykres 6. Top 10 najczęściej zwracanych produktów](charts/w6.png)
+Wykres 6. Top 10 najczęściej zwracanych produktów
 
-![][image7]
-
-!\[Tabela 2\. Top 10 produktów przynoszących największy przychód\](charts/t2.png)
-
- ![][image8]
-
-!\[Wykres 6\. Top 10 najczęściej zwracanych produktów\](charts/w6.png)
-
-![][image9]
-
-!\[Tabela 3\. Top 10 najczęściej zwracanych produktów\](charts/t36.png)
+![Tabela 3. Top 10 najczęściej zwracanych produktów](charts/t36.png)
+Tabela 3. Top 10 najczęściej zwracanych produktów
 
 ### **4\. Koncentracja geograficzna**
 
 Wielka Brytania odpowiada za ponad 90% obrotu; pozostałe rynki (Irlandia, Holandia, Niemcy, Francja) mają różne produkty-hity. Inne rynki oznaczają inne realia biznesowe i inne strategie pozyskania klientów.
 
-![][image10]
 
-!\[Wykres 7\. Generowany obrót sklepu per rynek\](charts/w7.png)
+![Wykres 7. Generowany obrót sklepu per rynek](charts/w7.png)
+Wykres 7. Generowany obrót sklepu per rynek
 
-![][image11]
-
-!\[Tabela 4\.  Generowany obrót sklepu per rynek\](charts/t4.png)
+![Tabela 4.  Generowany obrót sklepu per rynek](charts/t4.png)
+Tabela 4.  Generowany obrót sklepu per rynek
 
 ---
 
@@ -128,19 +120,20 @@ Wielka Brytania odpowiada za ponad 90% obrotu; pozostałe rynki (Irlandia, Holan
 Osobno warto wymienić, bo to one świadczą o dojrzałości analitycznej:
 
 * **22,8% wierszy bez `Customer ID`** (zakupy gościnne) — wykluczane z analiz klientów.  
-  ![][image12]  
-!\[Tabela 5\. Podstawowe metryki\](charts/t5.png)  
+ 
+![Tabela 5. Podstawowe metryki](charts/t5.png)  
+Tabela 5. Podstawowe metryki
 * **Niespójne nazwy produktów** — ten sam kod bywa opisany różnie (literówki, warianty), więc grupowanie po nazwie fragmentuje wyniki. Rozwiązanie: grupować po `stock_code`, nie po `description`.
 
 * **Pozycje techniczne** (`POST`, `DOT`, `M`, `AMAZONFEE`...) udają produkty i zaśmiecają rankingi — odfiltrowane wzorcem regex.
 
-![][image7]
-
-!\[Tabela 6\. Pozycje techniczne obecne w top 10 produktów\](charts/t36.png)
+![Tabela 6. Pozycje techniczne obecne w top 10 produktów](charts/t36.png)
+Tabela 6. Pozycje techniczne obecne w top 10 produktów
 
 * **„Sobota" niemal bez sprzedaży** \- prawdopodobnie artefakt w danych źródłowych  
-  ![][image13]  
-!\[Tabela 7\. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia\](charts/t7.png)
+
+![Tabela 7. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia](charts/t7.png)
+Tabela 7. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia
 
 ---
 
