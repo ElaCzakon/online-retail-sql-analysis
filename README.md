@@ -66,7 +66,7 @@ Obrót rośnie jesienią, ze szczytem w listopadzie (zakupy przedświąteczne), 
 
 ![][image1]
 
-\!\[Wykres 1\. Obrót sklepu w ujęciu miesięcznym\](charts/w1.png)
+!\[Wykres 1\. Obrót sklepu w ujęciu miesięcznym\](charts/w1.png)
 
 ### **2\. Liderzy wśród klientów**
 
@@ -74,11 +74,11 @@ Segment **Champions** to tylko \~13% klientów (760 osób), ale odpowiada za pon
 
 ![][image2]
 
-\!\[Wykres 2\. Łączny obrót per segment\](charts/w2.png)
+!\[Wykres 2\. Łączny obrót per segment\](charts/w2.png)
 
 ![][image3]
 
-\!\[Wykres 3\. Liczebność w każdym segmencie\](charts/w3.png)
+!\[Wykres 3\. Liczebność w każdym segmencie\](charts/w3.png)
 
 ### **3\. Bestseller ≠ najbardziej dochodowy**
 
@@ -86,27 +86,27 @@ Nie zawsze najczęściej sprzedawany produkt (WORLD WAR 2 GLIDERS, \~110 tys. sz
 
 ![][image4]
 
-\!\[Wykres 4\. Top 10 najczęściej kupowanych przedmiotów\](charts/w4.png)
+!\[Wykres 4\. Top 10 najczęściej kupowanych przedmiotów\](charts/w4.png)
 
 ![][image5]
 
-\!\[Tabela 1\. Top 10 produktów sprzedanych ilościowo\](charts/t1.png)
+!\[Tabela 1\. Top 10 produktów sprzedanych ilościowo\](charts/t1.png)
 
 ![][image6]
 
-\!\[Wykres 5\. Top 10 produktów przynoszących największy przychód\](charts/w5.png)
+!\[Wykres 5\. Top 10 produktów przynoszących największy przychód\](charts/w5.png)
 
 ![][image7]
 
-\!\[Tabela 2\. Top 10 produktów przynoszących największy przychód\](charts/t2.png)
+!\[Tabela 2\. Top 10 produktów przynoszących największy przychód\](charts/t2.png)
 
  ![][image8]
 
-\!\[Wykres 6\. Top 10 najczęściej zwracanych produktów\](charts/w6.png)
+!\[Wykres 6\. Top 10 najczęściej zwracanych produktów\](charts/w6.png)
 
 ![][image9]
 
-\!\[Tabela 3\. Top 10 najczęściej zwracanych produktów\](charts/t36.png)
+!\[Tabela 3\. Top 10 najczęściej zwracanych produktów\](charts/t36.png)
 
 ### **4\. Koncentracja geograficzna**
 
@@ -114,11 +114,11 @@ Wielka Brytania odpowiada za ponad 90% obrotu; pozostałe rynki (Irlandia, Holan
 
 ![][image10]
 
-\!\[Wykres 7\. Generowany obrót sklepu per rynek\](charts/w7.png)
+!\[Wykres 7\. Generowany obrót sklepu per rynek\](charts/w7.png)
 
 ![][image11]
 
-\!\[Tabela 4\.  Generowany obrót sklepu per rynek\](charts/t4.png)
+!\[Tabela 4\.  Generowany obrót sklepu per rynek\](charts/t4.png)
 
 ---
 
@@ -128,18 +128,18 @@ Osobno warto wymienić, bo to one świadczą o dojrzałości analitycznej:
 
 * **22,8% wierszy bez `Customer ID`** (zakupy gościnne) — wykluczane z analiz klientów.  
   ![][image12]  
-  \!\[Tabela 5\. Podstawowe metryki\](charts/t5.png)  
+!\[Tabela 5\. Podstawowe metryki\](charts/t5.png)  
 * **Niespójne nazwy produktów** — ten sam kod bywa opisany różnie (literówki, warianty), więc grupowanie po nazwie fragmentuje wyniki. Rozwiązanie: grupować po `stock_code`, nie po `description`.
 
 * **Pozycje techniczne** (`POST`, `DOT`, `M`, `AMAZONFEE`...) udają produkty i zaśmiecają rankingi — odfiltrowane wzorcem regex.
 
 ![][image7]
 
-\!\[Tabela 6\. Pozycje techniczne obecne w top 10 produktów\](charts/t36.png)
+!\[Tabela 6\. Pozycje techniczne obecne w top 10 produktów\](charts/t36.png)
 
 * **„Sobota" niemal bez sprzedaży** \- prawdopodobnie artefakt w danych źródłowych  
   ![][image13]  
-  \!\[Tabela 7\. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia\](charts/t7.png)
+!\[Tabela 7\. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia\](charts/t7.png)
 
 ---
 
