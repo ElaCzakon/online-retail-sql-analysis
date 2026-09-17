@@ -67,6 +67,7 @@ Obrót rośnie jesienią, ze szczytem w listopadzie (zakupy przedświąteczne), 
 ![][image1]
 
 ![Wykres 1. Obrót sklepu w ujęciu miesięcznym](charts/w1.png)
+Wykres 1. Obrót sklepu w ujęciu miesięcznym
 
 ### **2\. Liderzy wśród klientów**
 
