@@ -132,11 +132,13 @@ Tabela 5. Podstawowe metryki
 * **Pozycje techniczne** (`POST`, `DOT`, `M`, `AMAZONFEE`...) udają produkty i zaśmiecają rankingi — odfiltrowane wzorcem regex.
 
 ![Tabela 6. Pozycje techniczne obecne w top 10 produktów](charts/t36.png)
+
 Tabela 6. Pozycje techniczne obecne w top 10 produktów
 
 * **„Sobota" niemal bez sprzedaży** \- prawdopodobnie artefakt w danych źródłowych  
 
 ![Tabela 7. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia](charts/t7.png)
+
 Tabela 7. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia
 
 ---
