@@ -147,7 +147,7 @@ Tabela 7. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia
 
 1. Zainstaluj **PostgreSQL** (np. przez [Postgres.app](https://postgresapp.com/)) i **pgAdmin 4**.  
 2. Pobierz dane wg instrukcji w [data/README.md](data/README.md) 
-3. Otwórz [`sql/projekt_online_retail.sql`](https://claude.ai/chat/sql/projekt_online_retail.sql) w pgAdmin i uruchamiaj **sekcjami, od góry do dołu**:  
+3. Otwórz [sql/projekt_online_retail.sql](sql/projekt_online_retail.sql) w pgAdmin i uruchamiaj **sekcjami, od góry do dołu**:  
    * Etap 1 — utworzenie tabel \+ import CSV (przez okno Import/Export pgAdmin),  
    * Etapy 2–4 — czyszczenie, analizy, RFM, funkcje okna, JOIN-y,  
    * Etap 5 — widoki zmaterializowane i eksport do CSV dla Power BI.
