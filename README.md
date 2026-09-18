@@ -38,7 +38,7 @@ online-retail-sql-analysis/
 └── data/  
     └── README.md                   \# skąd pobrać dane \+ licencja
 
-Cały kod jest w jednym, obszernie skomentowanym pliku [`sql/projekt_online_retail.sql`](https://claude.ai/chat/sql/projekt_online_retail.sql), podzielonym na 5 etapów, które uruchamia się po kolei.
+Cały kod jest w jednym, obszernie skomentowanym pliku [sql/projekt_online_retail.sql]sql/projekt_online_retail.sql), podzielonym na 5 etapów, które uruchamia się po kolei.
 
 ---
 
