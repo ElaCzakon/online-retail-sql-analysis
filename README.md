@@ -23,7 +23,7 @@ Pokazanie pełnego procesu analitycznego na jednym, spójnym zbiorze danych. Poc
 * **Autor danych:** Daqing Chen  
 * **Licencja:** Creative Commons Attribution 4.0 (CC BY 4.0)
 
-> \! **Danych nie ma w tym repozytorium** (plik waży \~91 MB i jest cudzym zbiorem). Instrukcja pobrania oraz link do źródła znajdują się w [`data/`](https://claude.ai/chat/data/README.md)`README.md`.
+> \! **Danych nie ma w tym repozytorium** (plik waży \~91 MB i jest cudzym zbiorem). Instrukcja pobrania oraz link do źródła znajdują się w [data/README.md)`README.md`.
 
 > 
 
