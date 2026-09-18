@@ -164,7 +164,7 @@ Tabela 7. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia
 
 ## **Autor**
 
-**Elżbieta Czakon** [LinkedIn](https://www.linkedin.com/in/el%C5%BCbieta-czakon-3767b5b1/) · [GitHub](https://github.com/ElaCzakon)
+**Elżbieta Czakon** [LinkedIn](https://https://www.linkedin.com/in/elzbieta-czakon//) · [GitHub](https://github.com/ElaCzakon)
 
 ---
 
