@@ -156,9 +156,14 @@ Tabela 7. Obrót sklepu i liczba faktur w rozbiciu na dni tygodnia
 
 ---
 
-## **Dalsze kroki**
+## Interaktywny dashboard (Power BI)
 
-* Wizualizacja paczek danych z Etapu 5 w **Power BI** (dashboard sprzedaży, segmentów RFM i sezonowości).
+Dane z analizy SQL zostały zwizualizowane w interaktywnym dashboardzie
+w Power BI. Cztery widoki pokazują kluczowe wnioski na jednym ekranie:
+sezonowość sprzedaży, segmentację klientów RFM, koncentrację geograficzną
+oraz najlepiej sprzedające się produkty.
+
+![Dashboard Power BI](charts/dashboard_powerbi.png)
 
 ---
 
